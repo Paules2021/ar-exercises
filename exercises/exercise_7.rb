@@ -10,3 +10,6 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+@new_store = Store.create(name: "NEW", annual_revenue: 10000, mens_apparel:true)
+
+@new_store.save!
